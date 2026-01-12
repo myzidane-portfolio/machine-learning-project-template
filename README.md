@@ -14,26 +14,26 @@ The project uses the California Housing Dataset accessed directly via `scikit-le
 
 ## 📂 Repository Structure
 
-machine-learning-project-template/
-├── notebooks/
-│ ├── 01_eda.ipynb Exploratory data analysis
-│ ├── 02_feature_engineering.ipynb Feature creation & preprocessing
-│ └── 03_modeling.ipynb Model training & evaluation
-├── src/
-│ ├── data/
-│ │ └── make_dataset.py Dataset loading and preparation
-│ ├── features/
-│ │ └── build_features.py Feature engineering logic
-│ ├── models/
-│ │ └── train_model.py Model training pipeline
-│ └── utils/
-│ └── metrics.py Custom evaluation metrics
-├── tests/
-│ └── test_basic.py Basic unit tests
-├── requirements.txt Python dependencies
-├── pyproject.toml Project configuration
-├── .gitignore Git ignore rules
-└── README.md Project documentation
+machine-learning-project-template/  
+├── notebooks/  
+│   ├── 01_eda.ipynb  
+│   ├── 02_feature_engineering.ipynb  
+│   └── 03_modeling.ipynb  
+├── src/  
+│   ├── data/  
+│   │   └── make_dataset.py  
+│   ├── features/  
+│   │   └── build_features.py  
+│   ├── models/  
+│   │   └── train_model.py  
+│   └── utils/  
+│       └── metrics.py  
+├── tests/  
+│   └── test_basic.py  
+├── requirements.txt  
+├── pyproject.toml  
+├── .gitignore  
+└── README.md  
 
 
 ## 🚀 Installation & Setup
