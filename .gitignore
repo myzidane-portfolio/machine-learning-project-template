@@ -1,0 +1,60 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+.env/
+.envrc/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Data (IMPORTANT)
+# ===============================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===============================
+# Models & Artifacts
+# ===============================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# ===============================
+# Logs & Outputs
+# ===============================
+logs/
+*.log
+reports/figures/*
+
+# ===============================
+# OS & Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# YAML secrets
+# ===============================
+*.env
+secrets.yaml
