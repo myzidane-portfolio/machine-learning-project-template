@@ -16,25 +16,25 @@ The project uses the California Housing Dataset accessed directly via `scikit-le
 
 machine-learning-project-template/
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_modeling.ipynb
+│ ├── 01_eda.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ └── 03_modeling.ipynb
 │
 ├── src/
-│   ├── data/
-│   │   └── make_dataset.py
-│   │
-│   ├── features/
-│   │   └── build_features.py
-│   │
-│   ├── models/
-│   │   └── train_model.py
-│   │
-│   └── utils/
-│       └── metrics.py
+│ ├── data/
+│ │ └── make_dataset.py
+│ │
+│ ├── features/
+│ │ └── build_features.py
+│ │
+│ ├── models/
+│ │ └── train_model.py
+│ │
+│ └── utils/
+│ └── metrics.py
 │
 ├── tests/
-│   └── test_basic.py
+│ └── test_basic.py
 │
 ├── requirements.txt
 ├── pyproject.toml
